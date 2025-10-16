@@ -1,0 +1,9 @@
+### .config ignores ###
+Slack/
+discord/
+jxbrowser/
+spotify/
+gh/
+dconf/
+pulse/
+elephant

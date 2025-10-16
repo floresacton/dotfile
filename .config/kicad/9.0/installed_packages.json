@@ -1,0 +1,152 @@
+{
+    "packages": [
+        {
+            "current_version": "4.0.3",
+            "install_timestamp": 1755753085,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/MitjaNemec"
+                    },
+                    "name": "Mitja Nemec"
+                },
+                "description": "Replicates layout of one hierarchical sheet to other copies of the same sheet.",
+                "description_full": "Replicate layout of one hierarchical sheet to other hierarchical sheets. The replication is based upon hierarchical sheets in eeschema. The basic requirement for replication is that the section to be replicated (source) is completely contained within a single hierarchical sheet, and replicated sections (destination) are just copies of the same sheet. Complex hierarchies are supported therefore replicated sheet can contain subsheets. The plugin replicates footprints, zones, tracks, text and drawings.\nAfter the section for replication (source section) has been laid out (footprints, tracks, text objects and zones placed) you need to:\n1. Place the anchor footprints for the destiantion sections you want to replicate. This defines the position and orientation of replicated sections. You can use PlaceFootprints action plugin for this.\n2. Select the same anchor footprint within the source section.\n3. Run the plugin.\n4. Choose which hierarchical level you wish to replicate.\n5. Select which sheets you want to replicate (default is all of them)\n6. Select whether you want to replicate also tracks, zones and/or text objects.\n7. Select whether you want to replicate tracks/zones/text which intersect the pivot bounding box or just those contained within the bounding box.\n8. Select whether you want to delete already laid out tracks/zones/text (this is useful when updating an already replicated layout).\n9. Hit OK.\nBy default, only objects which are fully contained in the bounding box constituted by all the footprints in the section will be replicated. You can select to also replicate zones and tracks which intersect this bounding box. Additionally, tracks, text and zones which are already laid out in the replicated bounding boxes can be removed (useful when updating). Note that bounding boxes are squares aligned with the x and y axis, regardless of section orientation.",
+                "identifier": "com.github.MitjaNemec.ReplicateLayout",
+                "license": "GPL-2.0",
+                "name": "Replicate Layout",
+                "resources": {
+                    "homepage": "https://github.com/MitjaNemec/ReplicateLayout"
+                },
+                "tags": [
+                    "pcbnew",
+                    "footprints",
+                    "arrange"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "50d16345bacd5104dff2521b9c30858244a6400eccdba619155a50f42557e022",
+                        "download_size": 35484,
+                        "download_url": "https://github.com/MitjaNemec/ReplicateLayout/releases/download/4.0.3/ReplicateLayout-4.0.3-pcm.zip",
+                        "install_size": 134619,
+                        "kicad_version": "9.0",
+                        "kicad_version_max": "9.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "4.0.3"
+                    },
+                    {
+                        "download_sha256": "644df634011d9464f6506ad99c44ec66178ca13982a3740c94e115ad3b0de13c",
+                        "download_size": 34374,
+                        "download_url": "https://github.com/MitjaNemec/ReplicateLayout/releases/download/3.0.3/ReplicateLayout-3.0.3-pcm.zip",
+                        "install_size": 131087,
+                        "kicad_version": "7.99",
+                        "kicad_version_max": "8.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "3.0.3"
+                    },
+                    {
+                        "download_sha256": "0885180a83d251ab76a7f952248e69af7415ee67e319bcda0497e73ffda41021",
+                        "download_size": 34105,
+                        "download_url": "https://github.com/MitjaNemec/ReplicateLayout/releases/download/2.1.3/ReplicateLayout-2.1.3-pcm.zip",
+                        "install_size": 129993,
+                        "kicad_version": "6.99",
+                        "kicad_version_max": "7.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "2.1.3"
+                    },
+                    {
+                        "download_sha256": "6480cba669e1c56a41130cb488bc1da8db59591308b4aaed986a6c14f3e294f4",
+                        "download_size": 32596,
+                        "download_url": "https://github.com/MitjaNemec/ReplicateLayout/releases/download/1.3.5/ReplicateLayout-1.3.5-pcm.zip",
+                        "install_size": 119801,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.3.5"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "5.1.0",
+            "install_timestamp": 1755753086,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/bennymeg"
+                    },
+                    "name": "Benny Megidish"
+                },
+                "description": "JLC PCB fabrication toolkit\nAutomate PCB fabrication process in conjunction with JLC PCB",
+                "description_full": "Toolkit for automating PCB fabrication process with KiCad and JLC PCB. \n\n Features: \n• Generates gerber files in correct format for production. \n• Generates BOM file in correct format for production. \n• Generates Pick and Place file in correct format for assembly. \n• Automatic and manual component translations. \n• Many more unique additional features. \n♥ https://github.com/sponsors/bennymeg",
+                "identifier": "com.github.bennymeg.JLC-Plugin-for-KiCad",
+                "license": "Apache-2.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/bennymeg"
+                    },
+                    "name": "Benny Megidish"
+                },
+                "name": "Fabrication Toolkit",
+                "resources": {
+                    "Sponsor": "https://github.com/sponsors/bennymeg",
+                    "homepage": "https://github.com/bennymeg/JLC-Plugin-for-KiCad"
+                },
+                "tags": [
+                    "jlc",
+                    "production",
+                    "fabrication",
+                    "toolkit"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "0dc6ad2fbd9e0be58cf2be029979871fe12b437416047b537aa57f9410eab290",
+                        "download_size": 20797,
+                        "download_url": "https://github.com/bennymeg/JLC-Plugin-for-KiCad/releases/download/5.1.0/JLC-Plugin-for-KiCad-5.1.0.zip",
+                        "install_size": 55836,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "5.1.0"
+                    },
+                    {
+                        "download_sha256": "2285113715d24d6e581ee1bee4c8e2fd92ad92bc72737e1dd05f7c05210e0e67",
+                        "download_size": 17732,
+                        "download_url": "https://github.com/bennymeg/JLC-Plugin-for-KiCad/releases/download/4.5.0/JLC-Plugin-for-KiCad-4.5.0.zip",
+                        "install_size": 44106,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "4.5.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}
