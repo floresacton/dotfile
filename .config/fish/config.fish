@@ -2,6 +2,10 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+if set -q SSH_CONNECTION
+    figlet -f small "ARCH LINUX" | lolcat
+end
+
 function conm
     if test "$CONDA_DEFAULT_ENV" = "miguel"
         echo "Deactivating Conda env: miguel"
