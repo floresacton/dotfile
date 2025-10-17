@@ -11,7 +11,7 @@ Include /etc/ssh/sshd_config.d/*.conf
 # possible, but leave them commented.  Uncommented options override the
 # default value.
 
-Port 22
+Port 6060
 AddressFamily any
 #ListenAddress 0.0.0.0
 #ListenAddress ::
