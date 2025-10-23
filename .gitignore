@@ -6,4 +6,5 @@ spotify/
 gh/
 dconf/
 pulse/
-elephant
+elephant/
+.config/GIMP/3.0/CrashLog/gimp-crash-*.txt
