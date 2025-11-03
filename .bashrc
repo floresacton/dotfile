@@ -19,6 +19,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # go bin
 export PATH="$HOME/.go/bin:$PATH"
 
+# perl bin
+export PATH="/usr/bin/vendor_perl:$PATH"
+
 # show fetch on tty login
 if [[ -z $DISPLAY && $(tty) == /dev/tty1 ]]; then
     fastfetch

@@ -7,7 +7,7 @@
     "silkscreen_bottom": "rgb(230, 230, 230)",
     "silkscreen_top": "rgb(230, 230, 230)",
     "soldermask_bottom": "rgba(20, 51, 36, 0.831)",
-    "soldermask_top": "rgba(20, 51, 36, 0.831)",
+    "soldermask_top": "rgb(199, 196, 197)",
     "solderpaste": "rgb(128, 128, 128)",
     "user_1": "rgb(194, 194, 194)",
     "user_10": "rgb(89, 148, 220)",

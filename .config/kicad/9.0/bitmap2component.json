@@ -1,11 +1,12 @@
 {
   "appearance": {
-    "color_theme": "_builtin_default",
-    "left_frame_width": 279
+    "color_theme": "_builtin_default"
   },
+  "bitmap_file_name": "",
   "color_picker": {
     "default_tab": 0
   },
+  "converted_file_name": "",
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
@@ -26,27 +27,17 @@
     "highlight_factor": 0.5,
     "select_factor": 0.75
   },
+  "last_format": 0,
+  "last_mod_layer": 0,
   "lib_tree": {
     "column_widths": null,
     "columns": [],
     "open_libs": []
   },
   "meta": {
-    "version": 0
+    "version": 1
   },
-  "pcm": {
-    "check_for_updates": true,
-    "last_download_dir": "",
-    "lib_auto_add": true,
-    "lib_auto_remove": true,
-    "lib_prefix": "PCM_",
-    "repositories": [
-      {
-        "name": "KiCad official repository",
-        "url": "https://repository.kicad.org/repository.json"
-      }
-    ]
-  },
+  "negative": false,
   "plugins": {
     "actions": []
   },
@@ -64,43 +55,16 @@
     "selection_zoom": 1
   },
   "system": {
-    "check_for_kicad_updates": true,
-    "file_history": [
-      "/home/miguel/GigaESC/MosfetBoard/EPC2304/EPC2304.kicad_pro",
-      "/home/miguel/Projects/big-foc/pcb/power/power.kicad_pro",
-      "/home/miguel/Projects/battery-pack/sim/regulator/regulator.kicad_pro",
-      "/home/miguel/Projects/big-foc/pcb/drive/drive.kicad_pro",
-      "/home/miguel/Projects/kicad-lib/templates/alu1/alu1.kicad_pro",
-      "/home/miguel/Downloads/test/hand/hand.kicad_pro",
-      "/home/miguel/Projects/esp-foc/esp-foc.kicad_pro",
-      "/home/miguel/Projects/usb-can/pcb/usb-can.kicad_pro",
-      "/home/miguel/Projects/small-foc/pcb/small-foc.kicad_pro"
-    ],
+    "file_history": [],
     "first_run_shown": false,
-    "last_design_block_lib_dir": "/home/miguel/.local/share/kicad/9.0/blocks",
     "last_imperial_units": 5,
     "last_metric_units": 1,
-    "last_received_update": "",
-    "last_update_check_time": "2025-11-02T01:23:50",
     "max_undo_items": 0,
-    "open_projects": [
-      "/home/miguel/GigaESC/MosfetBoard/EPC2304/EPC2304.kicad_pro"
-    ],
     "show_import_issues": true,
     "units": 1
   },
-  "template": {
-    "window": {
-      "pos": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "height": 630,
-        "width": 710
-      }
-    }
-  },
+  "threshold": 50,
+  "units": 0,
   "window": {
     "cursor": {
       "always_show_cursor": true,
@@ -244,12 +208,12 @@
       "user_grid_y": ""
     },
     "maximized": true,
-    "mru_path": "/home/miguel/GigaESC/MosfetBoard/EPC2304/",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=227;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=279;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editors;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=700;besth=590;minw=700;minh=590;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=279|dock_size(5,0,0)=700|",
+    "mru_path": "",
+    "perspective": "layout2|",
     "pos_x": 0,
     "pos_y": 0,
     "size_x": 1120,
-    "size_y": 686,
+    "size_y": 1372,
     "zoom_factors": [
       0.13,
       0.22,
