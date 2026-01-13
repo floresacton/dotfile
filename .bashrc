@@ -25,6 +25,7 @@ export PATH="/usr/bin/vendor_perl:$PATH"
 # show fetch on tty login
 if [[ -z $DISPLAY && $(tty) == /dev/tty1 ]]; then
     fastfetch
+    start-hyprland
 fi
 
 # Only switch to fish if bash wasn't started with -c

@@ -3,10 +3,10 @@
     "automatic": true,
     "messages_filter": 58,
     "method": 0,
-    "options": 0,
+    "options": 1,
     "recursive": true,
     "scope": 0,
-    "sort_order": 0
+    "sort_order": 1
   },
   "appearance": {
     "color_theme": "dark",
@@ -106,7 +106,7 @@
     "zoom_to_fit": true
   },
   "design_block_chooser": {
-    "height": 544,
+    "height": 1230,
     "keep_annotations": false,
     "lib_tree": {
       "column_widths": {
@@ -117,7 +117,7 @@
     "place_as_sheet": false,
     "repeated_placement": false,
     "sash_pos_h": 495,
-    "sash_pos_v": 313,
+    "sash_pos_v": 656,
     "sort_mode": 0,
     "width": 300
   },
@@ -191,19 +191,23 @@
   },
   "lib_tree": {
     "column_widths": {
-      "Description": 600,
-      "Item": 300
+      "Description": 766,
+      "Item": 177
     },
     "columns": [
       "Item",
       "Description"
     ],
     "open_libs": [
-      "power",
+      "-- Recently Used --",
+      "-- Already Placed --",
+      "Mechanical",
+      "Connector_Generic_MountingPin",
+      "Connector",
       "Device",
-      "Power_Management",
-      "Regulator_Linear",
-      "Simulation_SPICE"
+      "Transistor_BJT",
+      "Transistor_FET",
+      "Filter"
     ]
   },
   "lib_view": {
@@ -356,8 +360,8 @@
     "thickness": 3
   },
   "simulator": {
-    "cursors_panel_height": 143,
-    "measurements_panel_height": 30,
+    "cursors_panel_height": 60,
+    "measurements_panel_height": 20,
     "mouse_wheel_actions": {
       "horizontal": 0,
       "vertical_unmodified": 4,
@@ -365,9 +369,9 @@
       "vertical_with_ctrl": 1,
       "vertical_with_shift": 3
     },
-    "plot_panel_height": 494,
-    "plot_panel_width": 1497,
-    "signal_panel_height": 154,
+    "plot_panel_height": 200,
+    "plot_panel_width": 713,
+    "signal_panel_height": 100,
     "white_background": false,
     "window": {
       "cursor": {
@@ -454,25 +458,25 @@
     }
   },
   "symbol_chooser": {
-    "height": 772,
+    "height": 814,
     "keep_symbol": false,
     "place_all_units": true,
-    "sash_pos_h": 829,
+    "sash_pos_h": 848,
     "sash_pos_v": 518,
     "sort_mode": 0,
-    "width": 1396
+    "width": 1426
   },
   "system": {
     "file_history": [
-      "/home/miguel/GigaESC/MosfetBoard/EPC2304/EPC2304.kicad_sch",
-      "/home/miguel/Projects/kicad-lib/templates/alu1/alu1.kicad_sch",
-      "/home/miguel/Downloads/test/hand/hand.kicad_sch",
-      "/home/miguel/Projects/esp-foc/esp-foc.kicad_sch",
-      "/home/miguel/Projects/usb-can/pcb/usb-can.kicad_sch",
-      "/home/miguel/Projects/small-foc/pcb/small-foc.kicad_sch",
-      "/home/miguel/Contrib/led-array/led-array.kicad_sch",
-      "/home/miguel/Projects/tactile-sensing/pcb/sense-ring/sense-ring.kicad_sch",
-      "/home/miguel/Contrib/maslab/pcb/maslab.kicad_sch"
+      "/home/miguel/Projects/gan-foc/pcb/gan-foc.kicad_sch",
+      "/home/miguel/Factory/hv-foc/pcb/logic/main.kicad_sch",
+      "/home/miguel/Factory/hv-foc/pcb/power/main.kicad_sch",
+      "/home/miguel/Factory/hv-foc/pcb/main/main.kicad_sch",
+      "/home/miguel/Projects/telegram/controller/main.kicad_sch",
+      "/home/miguel/Projects/telegram/ethernet/main.kicad_sch",
+      "/home/miguel/Factory/switch/pcb/main/main.kicad_sch",
+      "/home/miguel/Factory/gateway/pcb/main/main.kicad_sch",
+      "/home/miguel/Projects/battery-pack/pcb/battery-pack.kicad_sch"
     ],
     "first_run_shown": false,
     "last_imperial_units": 5,
@@ -540,8 +544,8 @@
     "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1172;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SchematicHierarchy;caption=Schematic Hierarchy;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=300;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=352;floaty=72;floatw=200;floath=200|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=SelectionFilter;caption=Selection Filter;state=2098636;dir=4;layer=3;row=0;pos=2;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DesignBlocks;caption=Design Blocks;state=2099150;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=800;floath=600|name=NetNavigator;caption=Net Navigator;state=2099150;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=120;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=200;floath=200|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=460;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=890;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=188;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(3,6,0)=38|dock_size(4,3,0)=302|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=336|",
     "pos_x": 0,
     "pos_y": 0,
-    "size_x": 560,
-    "size_y": 686,
+    "size_x": 1120,
+    "size_y": 1372,
     "zoom_factors": [
       0.05,
       0.07,

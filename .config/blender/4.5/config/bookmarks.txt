@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/home/miguel/App/pcb2blender/pcb2blender_importer/
+/home/miguel/Downloads/

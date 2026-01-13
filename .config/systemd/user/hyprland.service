@@ -1,6 +1,6 @@
 [Unit]
 Description=Hyprland Wayland Session
-After=graphical.target
+After=seatd.service
 Wants=graphical.target
 
 [Service]
