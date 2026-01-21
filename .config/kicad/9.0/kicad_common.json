@@ -97,6 +97,6 @@
     "pdf_viewer_name": "",
     "text_editor": "nvim",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/miguel/Projects/gan-foc/pcb"
+    "working_dir": "/home/miguel/Factory/stepper-foc/pcb/main"
   }
 }
