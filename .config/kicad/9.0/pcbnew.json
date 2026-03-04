@@ -17,7 +17,7 @@
     "net_inspector_width": -1,
     "properties_panel_width": 300,
     "properties_splitter_proportion": 0.5,
-    "right_panel_width": 254,
+    "right_panel_width": 300,
     "search_panel_dock_direction": 3,
     "search_panel_height": 110,
     "search_panel_width": 284,
@@ -46,7 +46,7 @@
   },
   "drc_dialog": {
     "refill_zones": true,
-    "severities": 48,
+    "severities": 52,
     "test_all_track_errors": false,
     "test_footprints": false
   },
@@ -119,12 +119,12 @@
   },
   "footprint_chooser": {
     "filter_on_pin_count": false,
-    "height": 950,
-    "sash_h": 513,
-    "sash_v": 409,
+    "height": 1322,
+    "sash_h": 764,
+    "sash_v": 632,
     "sort_mode": 0,
     "use_fp_filters": false,
-    "width": 1116
+    "width": 1448
   },
   "footprint_viewer": {
     "autozoom": true,
@@ -271,13 +271,13 @@
       "user_grid_y": ""
     },
     "lib_list_width": 200,
-    "maximized": true,
+    "maximized": false,
     "mru_path": "/home/miguel/.local/share/kicad/9.0/projects",
     "perspective": "layout2|",
-    "pos_x": 0,
-    "pos_y": 0,
-    "size_x": 564,
-    "size_y": 244,
+    "pos_x": 396,
+    "pos_y": 39,
+    "size_x": 1448,
+    "size_y": 1322,
     "zoom": 1.0,
     "zoom_factors": [
       0.13,
@@ -486,7 +486,7 @@
     "zeros_format": 0
   },
   "graphics": {
-    "canvas_type": 2,
+    "canvas_type": 1,
     "highlight_factor": 0.5,
     "select_factor": 0.75
   },
@@ -514,19 +514,27 @@
       "Description"
     ],
     "open_libs": [
+      "Antefactory",
+      "Connector_Card",
+      "Connector_JST",
+      "Crystal",
+      "Heatsink",
+      "Inductor_SMD",
+      "LED_SMD",
+      "MountingEquipment",
       "MountingHole",
       "Mounting_Wuerth",
-      "Package_DirectFET",
-      "Package_DIP",
-      "Sensor_Audio",
-      "Connector_JST",
-      "TerminalBlock_MetzConnect",
-      "Package_QFP",
-      "Inductor_SMD",
       "Package_BGA",
-      "Package_SON",
-      "Package_TO_SOT_SMD",
-      "Package_TO_SOT_THT"
+      "Package_CSP",
+      "Package_DFN_QFN",
+      "Package_LGA",
+      "Package_QFP",
+      "Package_SO",
+      "Package_TO_SOT_THT",
+      "Relay_THT",
+      "RF_Module",
+      "TerminalBlock_MetzConnect",
+      "Transistor_Power_Module"
     ]
   },
   "meta": {
@@ -617,15 +625,15 @@
   },
   "system": {
     "file_history": [
-      "/home/miguel/Factory/stepper-foc/pcb/main/main.kicad_pcb",
-      "/home/miguel/Factory/resolver/pcb/base/base.kicad_pcb",
-      "/home/miguel/Factory/switch/pcb/main/main.kicad_pcb",
-      "/home/miguel/Factory/hv-foc/pcb/logic/main.kicad_pcb",
-      "/home/miguel/Factory/hv-foc/pcb/power/main.kicad_pcb",
-      "/home/miguel/Factory/gateway/pcb/main/main.kicad_pcb",
-      "/home/miguel/Projects/big-foc/pcb/power/power.kicad_pcb",
-      "/home/miguel/Projects/gan-foc/pcb/gan-foc.kicad_pcb",
-      "/home/miguel/Factory/hv-foc/pcb/main/main.kicad_pcb"
+      "/home/miguel/Antefactory/blaze/projects/spindle-drive/power/main.kicad_pcb",
+      "/home/miguel/Antefactory/blaze/projects/spindle-drive/logic/main.kicad_pcb",
+      "/home/miguel/Antefactory/blaze/projects/st-link/main/main.kicad_pcb",
+      "/home/miguel/Antefactory/blaze/projects/grid-connect/main/main.kicad_pcb",
+      "/home/miguel/Antefactory/blaze/projects/cnc-controller/main/main.kicad_pcb",
+      "/home/miguel/Antefactory/blaze/projects/stepper-drive/bulk/bulk.kicad_pcb",
+      "/home/miguel/Antefactory/blaze/projects/stepper-drive/main/main.kicad_pcb",
+      "/home/miguel/Antefactory/blaze/projects/ethernet-adapter/main/main.kicad_pcb",
+      "/home/miguel/Antefactory/electronics/projects/stepper-drive/main/main.kicad_pcb"
     ],
     "first_run_shown": false,
     "last_footprint3d_dir": "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes",
@@ -644,8 +652,8 @@
       "effort": 1,
       "fix_all_segments": true,
       "follow_mouse": true,
-      "free_angle_mode": false,
-      "jump_over_obstacles": false,
+      "free_angle_mode": true,
+      "jump_over_obstacles": true,
       "meta": {
         "version": 0
       },
@@ -654,7 +662,7 @@
       "remove_loops": true,
       "shove_iteration_limit": 250,
       "shove_time_limit": 1000,
-      "shove_vias": true,
+      "shove_vias": false,
       "smart_pads": true,
       "smooth_dragged_segments": true,
       "snap_to_pads": true,
@@ -677,7 +685,7 @@
       "axes_enabled": false,
       "fast_grid_1": 15,
       "fast_grid_2": 16,
-      "last_size": 17,
+      "last_size": 18,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": false,
@@ -811,11 +819,11 @@
     },
     "maximized": false,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1026;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1230;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=739;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=220;besth=-1;minw=200;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=220;floath=480|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=254;besth=-1;minw=254;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=254;floath=148|name=PropertiesManager;caption=Properties;state=2098684;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=188;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=NetInspector;caption=Net Inspector;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=38|dock_size(3,6,0)=38|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=254|dock_size(4,5,0)=300|dock_size(5,0,0)=330|",
-    "pos_x": 1127,
-    "pos_y": 40,
-    "size_x": 1101,
-    "size_y": 1348,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1131;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1230;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=739;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=220;besth=-1;minw=200;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=220;floath=480|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=254;besth=-1;minw=254;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=254;floath=148|name=PropertiesManager;caption=Properties;state=2098684;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=188;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=NetInspector;caption=Net Inspector;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=38|dock_size(3,6,0)=38|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=300|dock_size(4,5,0)=300|dock_size(5,0,0)=385|",
+    "pos_x": 12,
+    "pos_y": 722,
+    "size_x": 1285,
+    "size_y": 666,
     "zoom_factors": [
       0.13,
       0.22,

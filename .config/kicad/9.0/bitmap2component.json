@@ -2,7 +2,7 @@
   "appearance": {
     "color_theme": "_builtin_default"
   },
-  "bitmap_file_name": "/home/miguel/Factory/stepper-control/pcb/main/war.png",
+  "bitmap_file_name": "/home/miguel/Antefactory/blaze/projects/spindle-drive/logic/sad-pepe.png",
   "color_picker": {
     "default_tab": 0
   },
@@ -56,6 +56,7 @@
   },
   "system": {
     "file_history": [
+      "/home/miguel/Antefactory/blaze/projects/spindle-drive/logic/sad-pepe.png",
       "/home/miguel/Factory/stepper-control/pcb/main/war.png",
       "/home/miguel/Projects/big-foc/pcb/logic/stickman-showoff.jpg",
       "/home/miguel/Projects/big-foc/pcb/logic/surprised.png",
@@ -70,7 +71,7 @@
     "show_import_issues": true,
     "units": 1
   },
-  "threshold": 95,
+  "threshold": 6,
   "units": 0,
   "window": {
     "cursor": {
@@ -214,13 +215,13 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": true,
-    "mru_path": "/home/miguel/Factory/stepper-control/pcb/main",
+    "maximized": false,
+    "mru_path": "/home/miguel/Antefactory/blaze/projects/spindle-drive/logic",
     "perspective": "layout2|",
-    "pos_x": 0,
-    "pos_y": 0,
-    "size_x": 795,
-    "size_y": 928,
+    "pos_x": 500,
+    "pos_y": 41,
+    "size_x": 1728,
+    "size_y": 1347,
     "zoom_factors": [
       0.13,
       0.22,

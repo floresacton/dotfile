@@ -30,7 +30,7 @@
   "environment": {
     "vars": {
       "KICAD9_TEMPLATE_DIR": "/usr/share/kicad/template/",
-      "KICAD_USER_TEMPLATE_DIR": "/home/miguel/Projects/kicad-lib/templates/",
+      "KICAD_USER_TEMPLATE_DIR": "/home/miguel/Antefactory/blaze/templates/",
       "USER_3DMODEL_DIR": "/home/miguel/Projects/kicad-lib/3dmodels/",
       "USER_FOOTPRINT_DIR": "/home/miguel/Projects/kicad-lib/footprints/",
       "USER_SPICE_DIR": "/home/miguel/Projects/kicad-lib/spice/",
@@ -97,6 +97,6 @@
     "pdf_viewer_name": "",
     "text_editor": "nvim",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/miguel/Factory/stepper-foc/pcb/main"
+    "working_dir": "/home/miguel/Antefactory/blaze/projects/spindle-drive/power"
   }
 }
