@@ -1,9 +1,11 @@
 #!/bin/bash
 
-SRC="$HOME/Projects/dotfile/.config"
+SRC="$HOME/dotfiles/config"
 DEST="$HOME/.config"
 
 mkdir -p "$DEST"
+
+ln -s "$HOME/dotfiles/bashrc" "$HOME/.bashrc"
 
 for item in "$SRC"/*; do
     name=$(basename "$item")
